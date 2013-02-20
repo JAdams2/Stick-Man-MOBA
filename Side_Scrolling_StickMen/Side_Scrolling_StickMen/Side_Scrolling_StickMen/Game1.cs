@@ -18,6 +18,7 @@ namespace Side_Scrolling_StickMen
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        public static ContentManager content;
 
         public Game1()
         {
@@ -46,6 +47,7 @@ namespace Side_Scrolling_StickMen
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            content = Content;   
 
             // TODO: use this.Content to load your game content here
         }
